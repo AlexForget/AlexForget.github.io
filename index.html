@@ -10,48 +10,105 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projet LinkedIn Learning</title>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <main>
       <!-- ***********************  À PROPOS DE MOI / PROFIL  *********************** -->
       <header>
-          <div class="content-wrap">
-              <h1>Alexandre Forget</h1>
-              <h2>Étudiant en programmation orientée objet et technologie web</h2>
-
-              <p>Ajouter une description de mon profil: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, diam ut gravida efficitur, risus neque scelerisque erat, ut rhoncus erat odio ac justo. Nunc scelerisque vestibulum augue, sit amet hendrerit ante.</p>
-              <p>Paragraphe multiple. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quidem commodi aperiam ad, possimus culpa! Officia tempora cum facilis iusto accusamus minus cupiditate repudiandae. Aliquid commodi numquam distinctio blanditiis autem.</p>
+        <div class="content-wrap">
+          <div>
+            <h1>Alexandre Forget</h1>
+            <img
+              id="portrait"
+              src="images/portrait.jpg"
+              alt="Un auto portrait de l'auteur du site internet"
+            />
+            <h2>Étudiant en programmation orientée objet et technologie web</h2>
           </div>
+
+          <p>
+            Je termine présentent une attestation d'études collégiales (AEC) en
+            programmation orientée objet. Mon objectif est d’obtenir une
+            première expérience dans le domaine de la programmation pour pouvoir
+            mettre en pratique les notions et les technologies apprises pendant
+            ma formation. Mais surtout, de pouvoir développer plus en profondeur
+            mes connaissances pour devenir un meilleur développeur.
+          </p>
+          <p>
+            Mes expériences de travail varié, dont 8 ans dans le domaine de la
+            comptabilité, m’ont apprisesent l’importance de la communication
+            dans un milieu professionnel et surtout comment bien travailler en
+            équipe. Ce qui est fondamental à la réussite de tout projet peu
+            importe le domaine.
+          </p>
+        </div>
       </header>
 
       <!-- ********************  PROJETS / PORTFOLIO  ********************* -->
       <section class="projet">
         <div class="content-wrap divider">
-          <h2>Présentation d'un projet</h2>
-          <p>Description du projet. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laudantium quaerat voluptatibus ea expedita veritatis id illo sint iure vel architecto quas, minus, accusamus nesciunt mollitia asperiores, atque exercitationem labore.</p>
-
+          <h2>Projet personnel</h2>
           <!-- Copier toute la <section> pour ajouter d'autres projets. -->
+          <h3>Open space</h3>
+          <p>
+            Projet d'apprendissage couvrant les base de Javascrip, HTML et CSS.
+            <br />
+            Page web permetant de faire décollé une navette spacial d'une
+            planète à l'aide d'un poste de commande rudimentaire.
+          </p>
+
           <section class="project-item">
-              <img src="images/thumbnail-3.jpg" alt="description de l'image">
-              <h3>Projet 1</h3>
-              <p>Résumé et description du projet. Mon rôle dans le projet. Ajouter autant de paragraphe que nécessaire</p>
-              <a class="btn" href="http://alexforget.byethost13.com/testHosting.html" target="_blank">Lien vers le projet</a>
+            <img
+              class="imgProjet"
+              src="images/space.jpg"
+              alt="Une capture d'image du projet Open Space"
+            />
+            <p>
+              Provenant du site <a href="https://www.jetbrains.com/academy/" target="blank">JetBrains Academy</a>, ce projet m'a permis
+              d'apprendre les notions de base de JavaScrip, Html et CSS. Cette
+              plateforme nous donnes les grandes lignes de chaque étapes du
+              projet et nous force à chercher par nous même comment surmonter
+              les défi offert.
+            </p>
+            <a
+              class="btn"
+              href="http://alexforget.byethost13.com/testHosting.html"
+              target="_blank"
+              >Lien vers le projet</a
+            >
           </section>
           <!-- Fin du bloc projet. -->
           <!-- Copier toute la <section> pour ajouter d'autres projets. -->
-            <p>Description du projet. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laudantium quaerat voluptatibus ea expedita veritatis id illo sint iure vel architecto quas, minus, accusamus nesciunt mollitia asperiores, atque exercitationem labore.</p>
-            <section class="project-item">
-                <img src="images/thumbnail-2.jpg" alt="description de l'image">
-                <h3>Projet 2</h3>
-                <p>Résumé et description du projet. Mon rôle dans le projet. <a href="#">Lien bidon </a>Ajouter autant de paragraphe que nécessaire</p>
-                <a class="btn" href="http://alexforget.byethost13.com/testHosting.html" target="_blank">Lien vers le projet</a>
-            </section>
-            <!-- Fin du bloc projet. -->
+          <h3>À venir</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+
+          <section class="project-item">
+            <img
+              class="imgProjet"
+              src="images/sharon-mccutcheon-unsplash.jpg"
+              alt="Une capture d'image du projet Open Space"
+            />
+            <p>Bla, bla, bla</p>
+            <a
+              class="btn"
+              href="http://alexforget.byethost13.com/testHosting.html"
+              target="_blank"
+              >Lien vers le projet</a
+            >
+          </section>
+          <!-- Fin du bloc projet. -->
         </div>
       </section>
 
@@ -59,48 +116,84 @@
       <section class="travail">
         <div class="content-wrap item-detail divider">
           <h2>Expérience de travail</h2>
-          <p>Paragraphe optinnel pour un résumé de l'expérience de travail. Ajouter autant de paragraphe que nécessaire.</p>
+          <!--
+          <p>
+            Paragraphe optinnel pour un résumé de l'expérience de travail.
+            Ajouter autant de paragraphe que nécessaire.
+          </p>
+        -->
 
           <!-- Copier toute la <section> pour ajouter d'autres emplois. -->
           <section class="job-item">
             <div class="job-detail">
-              <h3>Titre d'emploi 1</h3>
-              <p>Nom de la compagnie</p>
-              <p>Date en poste</p>
+              <h3>Technicien comptable</h3>
+              <p>RE/MAX Québec inc. / Relonat inc.</p>
+              <p>Mai 2019 – Décembre 2020</p>
             </div>
 
             <div class="job-summary">
-              <p>Résumé des tâches vont ici. Ajouter autant de paragraphe que nécessaire.</p>
-            <p>Liste optionnel:</p>
-            <ul>
-              <li>Item 1.</li>
-              <li>Item 2.</li>
-              <li>Item 3.</li>
-              <li>Item 4.</li>
-            </ul>
-            </div>            
+              <p>
+                À ce poste, j'étais appelée à être très polyvalent et
+                débrouillard. Relevant directement de la contrôleuse, j'avais
+                comme tâches de l'accompagner dans ses demandes quotidiennes et
+                de répondre rapidement aux demandes spontanées.
+              </p>
+              <p>
+                La supervision était minimale et je devais gérer mon temps et
+                les priorités de façon optimale. Étant une PME, j'ai souvent eu
+                à compléter des tâches qui étaient hors de ma zone de confort.
+                Mais j'avais la chance d'avoir une excellente équipe toujours
+                prête à répondre à toutes mes questions.
+              </p>
+              <p>Liste non-exhaustive des tâches à accomplir :</p>
+              <ul>
+                <li>Assister dans la préparation des états financiers</li>
+                <li>Gestion du cycle des comptes payables</li>
+                <li>
+                  Préparation de divers rapports pour les membres de la
+                  direction
+                </li>
+              </ul>
+            </div>
           </section>
           <!-- Fin du bloc emplois. -->
           <!-- Copier toute la <section> pour ajouter d'autres emplois. -->
-            <section class="job-item">
-              <div class="job-detail">
-                <h3>Titre d'emploi 2</h3>
-                <p>Nom de la compagnie</p>
-                <p>Date en poste</p>
-              </div>
-  
-              <div class="job-summary">
-                <p>Résumé des tâches vont ici. Ajouter autant de paragraphe que nécessaire.</p>
-              <p>Liste optionnel:</p>
+          <section class="job-item">
+            <div class="job-detail">
+              <h3>Commis au comptes payables</h3>
+              <p>Centre d’Accueil le programme de Portage inc.</p>
+              <p>Février 2014 – Mai 2019</p>
+            </div>
+
+            <div class="job-summary">
+              <p>
+                Pendant mes années chez Portage, j'ai eu la chance de travailler
+                dans une grande entreprise. J'ai appris à suivre des méthodes de
+                travail strictes et très détaillé. Le travail d'équipe était la
+                clé du succès de la réussite de notre département. Mon supérieur
+                me fessait extrêmement confiance et il m'a permis de participer
+                à des mandats qui dépassaient le cadre de mon emploi, car il
+                croyait en moi et cela aidait beaucoup les autres membres de
+                notre équipe par période de haut volume de travail.
+              </p>
+              <p>Liste non-exhaustive des tâches à accomplir :</p>
               <ul>
-                <li>Item 1.</li>
-                <li>Item 2.</li>
-                <li>Item 3.</li>
-                <li>Item 4.</li>
+                <li>
+                  Gestion du cycle des comptes payables de plusieurs centre
+                  d'hébergeent
+                </li>
+                <li>
+                  Assister les techniciens comptables lors de la vérification
+                  annuele des états financiers
+                </li>
+                <li>
+                  Épauler les comptes reevables par moment de haut volume de
+                  travail
+                </li>
               </ul>
-              </div>            
-            </section>
-            <!-- Fin du bloc emplois. -->
+            </div>
+          </section>
+          <!-- Fin du bloc emplois. -->
         </div>
       </section>
 
@@ -111,26 +204,42 @@
 
           <!-- Copier toute la <section> pour ajouter d'autres d'éducation. -->
           <section>
-            <h3>Nom de l'école</h3>
-            <p>Nom du diplome reçu et l'année</p>
-            <p>Résumé du proigramme et mention honorable.</p>
+            <h3>Collège de Rosemont</h3>
+            <p><a href="https://www.crosemont.qc.ca/programme/programmation-orientee-objet-et-technologies-web/" target="blank">AEC en Programmation orientée objet et technologies Web</a></p>
+            <br />
+            <p>
+              Ce programme m'a permis d'apprendre les bases pour exercer la
+              profession de programmeur analyste en développement orientée objet
+              dans un environnement de bases de données relationnelles et en
+              programmation web.
+            </p>
           </section>
           <!-- Fin du bloc éducation. -->
           <!-- Copier toute la <section> pour ajouter d'autres d'éducation. -->
-            <section>
-              <h3>Nom de l'école</h3>
-              <p>Nom du diplome reçu et l'année</p>
-              <p>Résumé du proigramme et mention honorable.</p>
-            </section>
-            <!-- Fin du bloc éducation. -->
-            <!-- Copier toute la <section> pour ajouter d'autres d'éducation. -->
           <section>
-            <h3>Nom de l'école</h3>
-            <p>Nom du diplome reçu et l'année</p>
-            <p>Résumé du proigramme et mention honorable.</p>
+            <h3>Cegep André-Laurendeau</h3>
+            <p>AEC en comptabilité financière informatisée</p>
+            <br />
+            <p>
+              Ce programme m'a préparé à exercer des tâches de comptabilités et
+              de finance à l'aide de l'informatique. Il m'a préparé à le faire
+              de façon autonome et à faire face aux changements technologiques
+              dans tout sortent de situation de travail.
+            </p>
           </section>
           <!-- Fin du bloc éducation. -->
-      </div>
+          <!-- Copier toute la <section> pour ajouter d'autres d'éducation. -->
+          <section>
+            <h3>Polyvalente Deux-​Montagnes</h3>
+            <p>Diplôme d'études secondaires (DES)</p>
+            <br />
+            <p>
+              Formation générale qui m'a préparé à faire mes études post
+              secondaire et au marché du travail.
+            </p>
+          </section>
+          <!-- Fin du bloc éducation. -->
+        </div>
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
@@ -140,19 +249,23 @@
 
           <!-- Social media et liens contact. Ajouter ou enlever d'autres réseaux. -->
           <ul class="contact-list">
-            <li><a href="mailto:alexandreforget@hotmail.ca">alexandreforget@hotmail.ca</a></li>
-            <li><a href="http://alexforget.22web.org/" target="_blank">http://alexforget.22web.org/</a></li>
-            <li><a href="https://www.linkedin.com/in/alexandre-forget-89b91589/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/AlexForget" target="_blank">Github</a></li>
+            <li>
+              <a href="mailto:alexandreforget@hotmail.ca"
+                >alexandreforget@hotmail.ca</a
+              >
+            </li>
+              <a
+                href="https://www.linkedin.com/in/alexandre-forget-89b91589/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/AlexForget" target="_blank">Github</a>
+            </li>
           </ul>
-      </div>
+        </div>
       </footer>
     </main>
   </body>
 </html>
-
-
-<!-- Note général
-  1. Largaeur image thumbnail = 600 px width
-  2. Largeut image de fond = 1400px to 200px width
-  -->
