@@ -12,6 +12,11 @@ https://coolors.co/0a100d-b9baa3-d6d5c9-a22c29-902923
 ------------------------------------------ */
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img {
+  border: 2px solid #1e1e24;
 }
 *,
 *:before,
@@ -71,6 +76,36 @@ h3 {
   border-style: none;
 }
 
+/* Navigation
+------------------------------------------ */
+nav {
+  background: #1e1e24;
+  color: #c4af9a;
+}
+
+.nav-menu {
+  justify-content: center;
+  margin: 0;
+  font-size: larger;
+}
+
+.nav-menu li {
+  list-style-type: none;
+  padding: 0px 25px;
+}
+
+.nav-menu li:hover {
+  cursor: pointer;
+  background: #c4af9a;
+  color: #1e1e24;
+}
+
+.nav-menu li a,
+.nav-menu li a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Profil
 ------------------------------------------ */
 header {
@@ -123,6 +158,11 @@ header {
   margin-top: 0;
 }
 
+.project-item a:link,
+.project-item a:visited {
+  color: #0a100d;
+}
+
 /* Expérience de travail
 ------------------------------------------ */
 .travail {
@@ -173,6 +213,7 @@ footer {
     float: left;
     margin-right: 20px;
   }
+
   .job-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -181,6 +222,26 @@ footer {
   .contact-list {
     display: flex;
     justify-content: center;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    color: #c4af9a;
+    background: #1e1e24;
+    width: 100%;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    padding: 3px 25px;
+    margin: 0px;
+  }
+
+  .nav-menu li {
+    border: 1px solid #c4af9a;
+    margin: 3px;
   }
 }
 @media screen and (max-width: 749px) {
@@ -193,6 +254,10 @@ footer {
     line-height: 1;
   }
   .contact-list a {
+    padding: 5px;
+  }
+
+  .nav-menu li {
     padding: 5px;
   }
 }
