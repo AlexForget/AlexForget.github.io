@@ -92,6 +92,7 @@ nav {
 .nav-menu li {
   list-style-type: none;
   padding: 0px 25px;
+  border-radius: 4px;
 }
 
 .nav-menu li:hover {
@@ -242,8 +243,12 @@ footer {
   .nav-menu li {
     border: 1px solid #c4af9a;
     margin: 3px;
+    flex-grow: 1;
+    padding: 5px 0;
+    text-align: center;
   }
 }
+
 @media screen and (max-width: 749px) {
   h1 {
     font-size: 75px;
